@@ -25,4 +25,7 @@ As the build is based on gnu, after running the setup, choose options 34 and the
 ```
 ./configure 
 ```
-
+This step is one of the most time-consuming and can take 30 ~ 40 minutes
+```
+./compile -j 4 em_real 2>&1 | tee compile.log
+```
