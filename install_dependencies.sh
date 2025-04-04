@@ -16,8 +16,9 @@ export LDFLAGS="-L$NETCDF/lib -L$DIR/grib2/lib"
 export CPPFLAGS="-I$NETCDF/include -I$DIR/grib2/include -fcommon"
 
 # Number of cores for compilation
-JOBS=20
+JOBS=4
 
+# Function to download, extract, compile, and install libraries
 install_lib() {
     local url=$1
     local dir_prefix=$2
