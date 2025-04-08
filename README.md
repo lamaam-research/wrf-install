@@ -23,7 +23,7 @@ bash install_dependencies.sh
 ```
 git clone --recurse-submodule https://github.com/wrf-model/WRF.git
 cd WRF
-export $WRF_DIR=$PWD
+export WRF_DIR=$PWD
 ```
 As the build is based on gnu, after running the setup (choose options 34 and then 1).
 
