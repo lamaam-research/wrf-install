@@ -4,7 +4,7 @@ This script is designed to automatically install the minimum dependencies for bu
 
 ## If you are using a Debian-based Linux for the first time, run:
 ```
-sudo apt install build-essential gcc cpp gfortran g++ make cmake coreutils m4 ncview flex bison libcurl4-openssh-dev git automake
+sudo apt install build-essential gcc cpp gfortran g++ make cmake coreutils m4 ncview flex bison git automake
 ```
 
 ## How to use:
